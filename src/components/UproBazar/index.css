@@ -1,0 +1,155 @@
+.main-uprobazar-container{
+    background-color: #11111b;
+}
+
+.uprobazar-container{
+    padding: 40px;
+    
+}
+
+.uprobazar-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.upro-bazar-model-image{
+    width: 400px;
+    position: relative;
+    top: 1px;
+    animation-name: uprobazar;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes uprobazar {
+    from {
+      opacity: 1;
+      top: 10px;
+    }
+    to {
+      opacity: 0.8;
+      top: 20px;
+    }
+  }
+  
+
+.uprobazar-first-container{
+    width: 1250px;
+    max-width: 1400px;
+}
+
+.uprobazar-li1 h1{
+    max-width: 400px;
+    display: flex;
+    
+}
+
+.uprobazar-li1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 860px;
+}
+
+
+.uprobazar-li h1{
+    font-size: 24px;
+    max-width: 400px;
+}
+
+.uprobazar-li p{
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.single-uprobazar-ul-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+    max-width: 860px;
+}
+
+
+.brand-names{
+    width: 860px;
+}
+
+@media screen and (max-width:1300px) {
+
+    .upro-bazar-model-image{
+        width: 400px;
+    }
+
+    .uprobazar-first-container{
+        width: 1000px;
+    }
+
+    
+}
+
+@media screen and (max-width:1100px){
+
+    .upro-bazar-model-image{
+        width: 350px;
+    }
+    .uprobazar-first-container{
+        width: 800px;
+    }
+    .single-uprobazar-ul-item{
+        width: 400px;
+    }
+    .single-uprobazar-ul-item h1{
+        font-size: 25px ;
+    }
+}
+
+
+@media screen and (max-width:920px) {
+
+
+    .brand-names{
+        width: 400px;
+    }
+    .uprobazar-first-container{
+        width: 650px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+
+    .uprobazar-li1{
+        width: 200px;
+    }
+    .uprobazar-li{
+        width: 200px;
+    }
+    .uprobazar-li1 h1{
+
+        font-size: 20px;
+        
+    }
+    .upro-bazar-model-image{
+        width: 280px;
+    }
+    .uprobazar-li h1{
+        font-size: 20px;
+    }
+    .single-uprobazar-ul-item{
+        width: 200px;
+
+    }
+
+    .brand-names{
+        width: 200px;
+    }
+    .uprobazar-first-container{
+        width: 200px;
+    }
+   
+
+}

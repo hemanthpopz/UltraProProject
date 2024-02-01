@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto+Slab&family=Scheherazade+New&display=swap');
+
+
+footer{
+    padding: 40px;
+    /* From https://css.glass */
+background: #0d0d14;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px);
+
+}
+
+.address{
+    color: var(--White, #FFF);
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+line-height: 17.85px; /* 111.563% */
+letter-spacing: 0.4px;
+}
+
+.address-span{
+    color: #67666E;
+    
+}
+
+.news{
+    color: white;
+    font-family: 'Archivo';
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.news-des{
+    color: #67666E;
+    font-family: 'Archivo';
+    max-width: 400px;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    background-color: black;
+    width: 80%;
+    outline: none;
+    border: 1px solid #67666E;
+    margin-top: 40px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.last-text-container p{
+    color: #67666E;
+    font-family: 'Archivo';
+    font-size: 12px;
+    
+}
+
+
+
+.last-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+@media  screen and (max-width:756px) {
+
+    .footer{
+        padding: 10px;
+    }
+    
+    
+}
+
+

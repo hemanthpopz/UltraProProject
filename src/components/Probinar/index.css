@@ -1,0 +1,322 @@
+.main-probinar-container {
+    background-color: #11111b;
+}
+
+.probinar-container {
+    padding: 40px;
+
+}
+
+.probinar-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.probinar-container-heading {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto Slab;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 600px;
+    background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+.probinar-first-container {
+    background-image: url('../Images/blurBg1.png');
+    margin-top: 30px;
+    padding: 20px;
+    background-size: cover;
+    display: flex;
+    max-width: 1400px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+
+.probiar-second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+}
+
+
+.probinar-second-heading {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    margin-bottom: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 800px;
+}
+
+
+.probinar-second-des {
+    color: #85848a;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 800px;
+    line-height: 32px;
+    /* 160% */
+}
+
+.probinar-third-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.probinar3-image {
+    width: 500px;
+    animation-name: probinar;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    top: 10px;
+}
+
+@keyframes probinar {
+    from {
+        opacity: 1;
+        top: 10px;
+    }
+
+    to {
+        opacity: 0.8;
+        top: 20px;
+    }
+}
+
+.probinar3-heading {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.probinar3-des {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 400px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    /* 160% */
+}
+
+.probinar-ul {
+    display: flex;
+    max-width: 1400px;
+}
+
+.probinar-ul h1 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.probinar-ul li {
+    background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.probinar-ul p {
+    color: #85848a;
+    font-family: Archivo;
+    font-size: 16px;
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.explore-container {
+    margin-top: 20px;
+}
+
+.explore-container p {
+    color: #FF5301;
+}
+
+.probinar-fourth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-probinar-text-container{
+    max-width: 1400px;
+    margin-top: 40px;
+    
+}
+
+.single-probinar-ul-item{
+    display: flex;
+    align-items: center;
+    background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.single-probinar-text-container h1 {
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.single-probinar-text-container-p{
+    color: #85848a;
+    max-width: 800px;
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+.money-image{
+    width: 200px;
+}
+
+@media screen and (max-width:1100px) {
+
+    .probinar-container-heading{
+        font-size: 40px;
+        max-width: 400px;
+    }
+
+    .probinar3-image{
+        width: 400px;
+    }
+    .probinar3-heading{
+        font-size: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+       .probinar-first-container{
+        background-image: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+       }
+    .probinar-third-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+    }
+    .probinar3-image{
+        width: 350px;
+    }
+
+    .probinar-ul{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:770px) {
+
+    .probinar3-image{
+        width: 300px;
+    }
+    .probinar3-heading{
+        font-size: 35px;
+    }
+    .probinar-second-heading{
+        font-size: 38px;
+    }
+    .probinar-ul h1{
+        font-size: 24px;
+
+    }
+    .probinar-ul p{
+        font-size: 10px;
+    }
+    .single-probinar-text-container h1{
+        font-size: 24px;
+    }
+    .single-probinar-text-container-p{
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width:600px) {
+
+    .single-probinar-ul-item{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width:560px) {
+    
+    .probinar3-image{
+        width: 250px;
+    }
+    .probinar3-heading{
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

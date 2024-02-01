@@ -1,0 +1,163 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.main-stakepro-container {
+    background-color: #11111b;
+    
+}
+
+.stakepro-container {
+    padding: 40px;
+
+}
+
+.stake-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.stakepro-third-container-primary {
+    background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stakepro-third-container-primary h1 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stakepro-third-container-primary p {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+    max-width: 600px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+.stakepro1,.stakepro2{
+    padding: 20px;
+    max-width: 400px;
+    margin: 10px;
+    background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+    border-radius: 10px;
+}
+
+.stakepro-secondary2-one{
+    padding: 40px;
+    margin: 10px;
+    
+    background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+    border-radius: 10px;
+    
+}
+
+.stakepro-secondary2-two{
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.logo-and-heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stakepro1 h1,
+.stakepro2 h1,
+.stakepro-secondary2-one h1 {
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stakepro-secondary1{
+    display: flex;
+}
+
+.stakepro-secondary2{
+    display: flex;
+}
+
+
+
+.stakepro-third-container{
+    display: flex;
+    max-width: 1400px;
+    gap: 30px;
+}
+
+.stakepro-fourth-h1{
+    margin-bottom: 40px;
+}
+
+.colorful-logo{
+    width: 60px;
+    animation-name: colorLogo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+    animation-direction: alternate;
+}
+
+@keyframes colorLogo {
+
+    from {
+        opacity: 1;
+
+    }
+    to{
+        opacity: 0.7;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1100px) {
+ .stakepro-third-container{
+    flex-direction: column;
+ }       
+}
+
+
+@media screen and (max-width:576px) {
+    .stakepro-third-container h1{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .stakepro-third-container h1{
+        font-size: 16px;
+    }
+
+    
+}
