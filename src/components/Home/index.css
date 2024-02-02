@@ -253,7 +253,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 27.369px; /* 171.059% */
-  max-width: 250px;
+  max-width: 220px;
 }
 
 .matrix-image-container {
@@ -262,17 +262,17 @@
 }
 
 .cube1 {
-  background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
+  background-image: url('../Images/CudeBG.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   stroke-width: 0.854px;
   max-width: 250px;
   display: flex;
   flex-direction: column;
   height: 300px;
   justify-content: space-between;
-  padding: 20px;
   stroke: #fff;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  padding: 20px;
   position: relative;
   backdrop-filter: blur(7.5px);
   transition-duration: 0.2s;
@@ -282,8 +282,6 @@
 }
 
 .cube1:hover {
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
   bottom: 15px;
 }
 
@@ -860,5 +858,27 @@ ul {
 
   .main-details-container{
     width: 100px;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+
+  .cubes-container p{
+    font-size: 8px;
+  }
+
+
+  .cube1{
+    justify-content: space-evenly;
+    height: 300px;
+    width: 180px;
+    flex-shrink: 0;
+  }
+  .cubes-container h1{
+    font-size: 15px;
+  }
+  .cubes-container img{
+    width: 40px;
   }
 }
