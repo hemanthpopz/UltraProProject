@@ -1,4 +1,3 @@
-import {useEffect } from "react";
 
 import Header from "../Header";
 
@@ -12,11 +11,6 @@ import "./index.css";
 
 function About(){
 
-
-  useEffect(() =>{
-    window.scrollTo(0, 0);
-
-  })
 
     return (
       <div className="main-about-container">

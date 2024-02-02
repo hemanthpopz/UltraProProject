@@ -1,29 +1,18 @@
-import { useEffect } from 'react'
-import {useNavigate,Link} from 'react-router-dom'
-import Header from '../Header'
-import ModelImage from '../Images/ModelImage.png'
-import './index.css'
-import secondImage from '../Images/secondImage.png'
-import matrix from '../Images/matrix.svg'
-import Logo from '../Images/LogoImage.svg'
+import { Link } from "react-router-dom";
+import Header from "../Header";
+import ModelImage from "../Images/ModelImage.png";
+import "./index.css";
+import secondImage from "../Images/secondImage.png";
+import matrix from "../Images/matrix.svg";
+import Logo from "../Images/LogoImage.svg";
 
-import Arrow from '../Images/Arrow.svg'
+import Arrow from "../Images/Arrow.svg";
 
-import Footer from '../Footer'
+import Footer from "../Footer";
 
-
-
-
-function Home(){
-
-   useEffect(() =>{
-    window.scrollTo(0, 0);
-   })
-
-
-  
-    return (
-      <div className='container'>
+function Home() {
+  return (
+    <div className="container">
       <div className=" home-container">
         <Header />
         <div className="content-container">
@@ -233,7 +222,6 @@ function Home(){
                 </p>
                 <div className="explore-container">
                   <p className="explore">COMING SOON</p>
-                  
                 </div>
               </li>
 
@@ -253,7 +241,6 @@ function Home(){
                 </p>
                 <div className="explore-container">
                   <p className="explore">COMING SOON</p>
-                  
                 </div>
               </li>
             </ul>
@@ -268,8 +255,8 @@ function Home(){
                 cutting-edge courses that transform individuals into experts in
                 blockchain, cryptocurrencies, and decentralized applications.
               </p>
-              <Link className='Link' to='/probinar'>
-              <div   className="eco-explore-container">
+              <Link className="Link" to="/probinar">
+                <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img src={Arrow} />
                 </div>
@@ -283,8 +270,8 @@ function Home(){
                 foundation. Whether you're a staking novice or a seasoned pro,
                 we have custom plans just for you.
               </p>
-              <Link className='Link' to='/stakeupro'>
-              <div className="eco-explore-container">
+              <Link className="Link" to="/stakeupro">
+                <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img src={Arrow} />
                 </div>
@@ -298,8 +285,8 @@ function Home(){
                 platform; it's your passport to a world of shopping delights.
                 Experience the ease of shopping with UPRO today!
               </p>
-              <Link className='Link' to='/uprobazar'>
-              <div className="eco-explore-container">
+              <Link className="Link" to="/uprobazar">
+                <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img src={Arrow} />
                 </div>
@@ -323,15 +310,11 @@ function Home(){
               </div>
             </div>
           </div>
-
-
-          
         </div>
       </div>
-        <Footer/>
-      </div>
-    )
-  
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

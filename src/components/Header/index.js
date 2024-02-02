@@ -34,7 +34,10 @@ function Header(){
             <li>Asset</li>
             <li>White paper</li>
             <li>
-              <button className="build-btn">Connect Us</button>
+              <a target='_blank' href='https://docs.ultraproscan.io/'>
+
+              <button className="build-btn">Build On UPRO</button>
+              </a>
             </li>
           </ul>
 
