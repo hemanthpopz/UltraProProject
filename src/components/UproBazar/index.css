@@ -115,7 +115,15 @@
         width: 400px;
     }
     .uprobazar-first-container{
-        width: 650px;
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+    .uprobazar-first-container{
+        width: 100%;
     }
 }
 
