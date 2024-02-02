@@ -169,6 +169,12 @@
   padding: 10px;
   width: 700px;
 }
+
+
+.line{
+  height: 100px;
+}
+
 .second-image {
   width: 400px;
   margin-right: 50px;
@@ -858,6 +864,14 @@ ul {
 
   .main-details-container{
     width: 100px;
+  }
+
+  .line{
+    rotate: 90deg;
+  }
+
+  .main-details-container{
+    gap: 10px;
   }
 }
 

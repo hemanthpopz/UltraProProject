@@ -1,5 +1,6 @@
 import { useLocation, Routes, Route} from "react-router-dom";
 import { useEffect} from "react";
+import BlogListing from "./components/BlogListing";
 import Probinar from "./components/Probinar";
 import Home from "./components/Home";
 import StakePro from "./components/StakeUpro";
@@ -19,7 +20,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/probinar" element={<Probinar />} />
         <Route path="/stakeupro" element={<StakePro />} />
         <Route path="/uprobazar" element={<UproBazar />} />

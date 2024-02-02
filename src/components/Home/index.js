@@ -4,6 +4,7 @@ import ModelImage from "../Images/ModelImage.png";
 import "./index.css";
 import secondImage from "../Images/secondImage.png";
 import matrix from "../Images/matrix.svg";
+import Line from '../Images/LineImage.png'
 import Logo from "../Images/LogoImage.svg";
 
 import Arrow from "../Images/Arrow.svg";
@@ -46,14 +47,17 @@ function Home() {
                 <h1>36+</h1>
                 <p>Countries</p>
               </div>
+              <img className="line" src={Line}/>
               <div className="box2">
                 <h1>20000+</h1>
                 <p>Transactions / Sec</p>
               </div>
+              <img className="line" src={Line}/>
               <div className="box3">
                 <h1>1M+</h1>
                 <p>Trade per Day</p>
               </div>
+              <img className="line" src={Line}/>
             </div>
           </div>
 
