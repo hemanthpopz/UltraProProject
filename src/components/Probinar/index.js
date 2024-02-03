@@ -5,6 +5,7 @@ import Arrow from "../Images/Arrow.svg";
 import ProbinarImage from "../Images/ProbinarImage.png";
 import MoneyImage from "../Images/MoneyPhoto.png";
 import "./index.css";
+import Cone from '../Images/Cone.png'
 
 function Probinar() {
 
@@ -39,6 +40,8 @@ function Probinar() {
               cutting-edge learning in blockchain, cryptocurrencies, and
               decentralized applications.
             </p>
+
+            <img className="cone" src={Cone}/>
           </div>
 
           <div className="probinar-third-container">

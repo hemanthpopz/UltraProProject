@@ -230,6 +230,15 @@
   line-height: 32px; /* 160% */
 }
 
+
+.cross-image{
+  width: 200px;
+  filter: opacity(0.4);
+  position: absolute;
+  right: 1%;
+  
+  
+}
 .cubes-container {
   display: flex;
   gap: 20px;
@@ -291,6 +300,18 @@
   bottom: 15px;
 }
 
+.triangle{
+  width: 150px;
+  position: absolute;
+  left: 1%;
+  opacity: 0.3;
+}
+.half-circle{
+  width: 200px;
+  opacity: 0.3;
+  position: absolute;
+  right: 1%;
+}
 .sol-heading {
   text-align: center;
   font-feature-settings: 'clig' off, 'liga' off;
@@ -410,6 +431,12 @@ ul {
   margin-top: 80px;
 }
 
+.box{
+  width: 200px;
+  opacity: 0.3;
+  position: absolute;
+  left: 1%;
+}
 .ecosystem {
   background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
   background-clip: text;

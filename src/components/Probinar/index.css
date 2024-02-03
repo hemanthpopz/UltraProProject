@@ -48,6 +48,13 @@
     max-width: 1400px;
 }
 
+.cone{
+    width: 200px;
+    opacity: 0.3;
+    position: absolute;
+    right: 1%;
+}
+
 
 .probinar-second-heading {
     text-align: center;

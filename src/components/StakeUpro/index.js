@@ -2,6 +2,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 import StakeProImage from "../Images/StakeProImage.png";
 import ColorfulLogo from "../Images/ColorfulLogo.png";
+import Cone from '../Images/Cone.png'
 import "./index.css";
 
 function StakePro() {
@@ -68,6 +69,8 @@ function StakePro() {
                 </div>
               </div>
             </div>
+
+            <img className="cone" src={Cone}/>
           </div>
 
           <div className="stakepro-third-container">

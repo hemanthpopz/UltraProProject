@@ -6,10 +6,14 @@ import secondImage from "../Images/secondImage.png";
 import matrix from "../Images/matrix.svg";
 import Line from '../Images/LineImage.png'
 import Logo from "../Images/LogoImage.svg";
-
+import CrossImage from '../Images/CrossImage.png'
 import Arrow from "../Images/Arrow.svg";
-
+import Triangle from '../Images/Triangle.png'
 import Footer from "../Footer";
+
+import Box from '../Images/Box.png'
+
+import HalfCircle from '../Images/HalfCircle.png'
 
 function Home() {
   return (
@@ -78,9 +82,12 @@ function Home() {
                 empowerment.
               </p>
             </div>
+
+            <img src={CrossImage} className="cross-image"/>
           </div>
 
           <div className="cubes-container">
+            <img className="triangle" src={Triangle}/>
             <div className="cube1">
               <div className="matrix-image-container">
                 <img src={matrix} />
@@ -136,6 +143,9 @@ function Home() {
                 </p>
               </div>
             </div>
+
+
+            <img className="half-circle" src={HalfCircle}/>
           </div>
 
           <h1 className="sol-heading">Solutions</h1>
@@ -248,6 +258,9 @@ function Home() {
                 </div>
               </li>
             </ul>
+
+            <img src={Box} className="box"/>
+          
           </div>
           <h1 className="ecosystem">Ecosystem</h1>
 
