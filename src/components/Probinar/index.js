@@ -6,6 +6,7 @@ import ProbinarImage from "../Images/ProbinarImage.png";
 import MoneyImage from "../Images/MoneyPhoto.png";
 import "./index.css";
 import Cone from '../Images/Cone.png'
+import CrossImage from '../Images/CrossImage.png'
 
 function Probinar() {
 
@@ -14,6 +15,7 @@ function Probinar() {
       <div className="probinar-container">
         <Header />
         <div className="probinar-content-container">
+        
           <div className="probinar-first-container">
             <div className="probinar-first-text-container">
               <h1 className="probinar-container-heading">
@@ -109,6 +111,8 @@ function Probinar() {
                 <img className="money-image" src={MoneyImage} />
               </div>
             </div>
+
+            <img src={CrossImage} className="cross-image"/>
           </div>
         </div>
       </div>

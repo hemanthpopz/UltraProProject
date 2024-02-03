@@ -4,6 +4,7 @@ import StakeProImage from "../Images/StakeProImage.png";
 import ColorfulLogo from "../Images/ColorfulLogo.png";
 import Cone from '../Images/Cone.png'
 import "./index.css";
+import Triangle from '../Images/Triangle.png'
 
 function StakePro() {
   return (
@@ -106,6 +107,7 @@ function StakePro() {
           </div>
 
           <div className="probinar-second-container">
+          <img className="triangle" src={Triangle}/>
             <h1 className="probinar-second-heading">
               Join the Ultrapro Revolution:
             </h1>
@@ -113,6 +115,7 @@ function StakePro() {
               Stake UPRO with Ultrapro Blockchain - where trust, security, and
               efficiency converge for a prosperous financial journey.
             </p>
+          
           </div>
         </div>
       </div>
