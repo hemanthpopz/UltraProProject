@@ -1,6 +1,5 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import ColorVector from "../Images/ColorVector.svg";
 import Arrow from "../Images/Arrow.svg";
 import ProbinarImage from "../Images/ProbinarImage.png";
 import MoneyImage from "../Images/MoneyPhoto.png";
@@ -25,6 +24,7 @@ function Probinar() {
             </div>
             <div className="probinar-image-container">
               <img
+              alt="model-img"
                 className="model-image"
                 src="https://www.touchdown.co/wp-content/uploads/2020/09/Untitled-2-2.png"
               />
@@ -43,12 +43,12 @@ function Probinar() {
               decentralized applications.
             </p>
 
-            <img className="cone" src={Cone}/>
+            <img alt="cone" className="cone" src={Cone}/>
           </div>
 
           <div className="probinar-third-container">
             <div className="probinar3-image-container">
-              <img className="probinar3-image" src={ProbinarImage} />
+              <img alt="probinar3-img" className="probinar3-image" src={ProbinarImage} />
             </div>
             <div className="probiar3-text-contaienr">
               <h1 className="probinar3-heading">
@@ -75,7 +75,7 @@ function Probinar() {
                 </p>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </li>
               <li>
@@ -87,7 +87,7 @@ function Probinar() {
                 </p>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </li>
             </ul>
@@ -103,16 +103,16 @@ function Probinar() {
                 </p>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </div>
 
               <div className="single-probinar-image-container">
-                <img className="money-image" src={MoneyImage} />
+                <img alt="money-img" className="money-image" src={MoneyImage} />
               </div>
             </div>
 
-            <img src={CrossImage} className="cross-image"/>
+            <img alt="CrossImg" src={CrossImage} className="cross-image"/>
           </div>
         </div>
       </div>

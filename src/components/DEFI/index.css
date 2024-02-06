@@ -1,0 +1,213 @@
+.defi-main-container{
+    background-color: #11111b;
+}
+
+.defi-container{
+    padding: 40px;
+
+}
+
+.defi-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.defi-heading,.defi-span-heading{
+    font-size: 55px;
+
+}
+
+
+
+.defi-first-container{
+    background-size: contain;
+    height: 60vh;
+    background-position: center;
+}
+
+.defi-h2-des{
+    margin-bottom: 20px;
+}
+
+
+.defi-primary{
+    background-image: url('../Images/DEFIVector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.defi-primary h1{
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 500px;
+    background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.defi-primary p{
+    margin-top: 10px;
+    color: #85848a;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 400px;
+    text-align: left;
+    line-height: 32px;
+
+}
+
+.defi-secondary{
+    background-image: url('../Images/DEFIVector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+}
+
+.defi-secondary h1{
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 500px;
+    background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.defi-secondary-p{
+    color: #FF3621;
+
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.defi-fourth-container{
+    display: flex;
+    gap: 50px;
+}
+
+
+@media screen and (max-width:1200px) {
+
+
+    .defi-heading,.defi-span-heading{
+        font-size: 50px;
+    }
+
+
+
+    .defi-primary,.defi-secondary{
+        width: 400px;
+    }
+
+
+    .defi-primary h1{
+        font-size: 30px;
+    }
+
+    .defi-primary p{
+        font-size: 16px;
+    }
+
+    .defi-secondary h1{
+        font-size: 30px;
+    }
+
+    .defi-secondary p{
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .defi-heading,.defi-span-heading{
+        font-size: 40px;
+    }
+
+    .defi-h2-des{
+        font-size: 26px;
+    }
+    .defi-primary,.defi-secondary{
+        width: 350px;
+    }
+
+    .defi-primary h1{
+        font-size: 25px;
+    }
+    .defi-primary p{
+        font-size: 12px;
+    }
+    .defi-secondary h1{
+        font-size: 25px;
+    }
+    .defi-secondary p{
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+
+
+    .defi-fourth-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .defi-primary,.defi-secondary{
+        width: 100%;
+    }
+
+    .defi-primary h1{
+        font-size: 20px;
+    }
+    .defi-primary p{
+        font-size: 10px;
+    }
+    .defi-secondary h1{
+        font-size: 20px;
+    }
+    .defi-secondary p{
+        font-size: 10px;
+    }
+    
+}

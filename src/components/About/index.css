@@ -210,13 +210,21 @@
     }
 
     .about-first-container{
-        width: 100%;
+        width: 600px;
     }
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
 
+        
+    .about-first-container{
+        width: 400px;
+    }    
+    
+}
+
+@media screen and (max-width:600px) {
 
     .about-first-container-des{
         font-size: 10px;
@@ -243,6 +251,12 @@
     
 }
 
+@media screen and (max-width:500px) {
+    .about-first-container{
+        width: 300px;
+    }
+}
+
 @media screen and (max-width:420px) {
 
     .about-first-container-des{
@@ -252,12 +266,17 @@
     .about-first-container{
         text-align: center;
         align-items: center;
+        width: 250px;
     }
 }
 
 @media screen and (max-width:380px) {
 
     .bitcoin-image{
+        width: 200px;
+    }
+
+    .about-first-container{
         width: 200px;
     }
     

@@ -1,0 +1,165 @@
+.gtx-wallet-main-container{
+    background-color: #11111b;
+}
+
+.gtx-container{
+    padding: 40px;
+}
+
+
+.gtx-first-container{
+    height: 60vh;
+    background-size: contain;
+}
+
+
+.gtx-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.gtx-heading{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 68px;
+    max-width: 500px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(94deg, #FFF 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gtx-span-heading{
+    background: linear-gradient(94deg, #FF3621 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.h2-des{
+    background: linear-gradient(94deg, #FF3621 6.12%, #FFDFC8 80.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+
+.gtx-container2{
+    width: 1400px;
+}
+.primary{
+
+    color: #FF3621;
+
+    font-family: "Roboto Slab";
+    font-size: 23px;
+    margin-top: 20px;
+
+}
+
+.secondary{
+    color: rgb(211, 204, 204);
+
+    font-family: "Roboto Slab";
+    margin-top: 18px;
+    max-width: 500px;
+    
+}
+
+
+
+.gtx-fourth-text{
+    font-size: 50px;
+}
+
+
+.gtx-fourth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gtx-buttoons-container{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1400px) {
+    .gtx-container2{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .gtx-heading,.gtx-span-heading{
+        font-size: 45px;
+    }
+    .h2-des{
+        font-size: 28px;
+    }
+
+    .gtx-container2{
+        width: 900px;
+    }
+
+}
+
+
+@media screen and (max-width:1000px) {
+    .gtx-container2{
+        width: 800px;
+    }
+
+    
+    .h2-des{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .gtx-container2{
+        width: 100%;
+    }
+
+    .gtx-fourth-text{
+        font-size: 30px;
+    }
+
+    .gtx-second-des{
+        font-size: 12px;
+        max-width: 400px;
+    }
+    .gtx-fourth-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

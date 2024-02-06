@@ -22,7 +22,7 @@ function StakePro() {
               </a>
             </div>
             <div className="probinar-image-container">
-              <img className="model-image" src={StakeProImage} />
+              <img alt="model-img" className="model-image" src={StakeProImage} />
             </div>
           </div>
 
@@ -40,7 +40,7 @@ function StakePro() {
             <div className="stakepro-third-container-primary">
               <div className="logo-and-heading-container">
                 <h1>Staking Plans:</h1>
-                <img src={ColorfulLogo} className="colorful-logo" />
+                <img alt="ColorfulLogo" src={ColorfulLogo} className="colorful-logo" />
               </div>
               <p>
                 In our digital world, trust, security, and efficiency are vital.
@@ -71,7 +71,7 @@ function StakePro() {
               </div>
             </div>
 
-            <img className="cone" src={Cone}/>
+            <img alt="Cone" className="cone" src={Cone}/>
           </div>
 
           <div className="stakepro-third-container">
@@ -101,13 +101,13 @@ function StakePro() {
 
               <div className="logo-and-heading-container">
                 <button className="contact-btn">Start Now</button>
-                <img src={ColorfulLogo} className="colorful-logo" />
+                <img alt="ColorfulLogo" src={ColorfulLogo} className="colorful-logo" />
               </div>
             </div>
           </div>
 
           <div className="probinar-second-container">
-          <img className="triangle" src={Triangle}/>
+          <img alt="triangle" className="triangle" src={Triangle}/>
             <h1 className="probinar-second-heading">
               Join the Ultrapro Revolution:
             </h1>

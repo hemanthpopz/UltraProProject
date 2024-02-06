@@ -1,0 +1,31 @@
+.marketplace-p{
+    color: rgb(202, 198, 198);
+    margin-top: 20px;
+    font-family: Archivo;
+    font-size: 18px;
+}
+
+
+.p2p-fourth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.p2p-second-des{
+    margin-bottom: 30px;
+}
+
+.hr-line{
+    background: linear-gradient(94deg, #FF3621 6.12%, #FFDFC8 80.25%);
+    width:50vw;
+    opacity: 0.5;
+    height: 2px;
+}
+
+@media screen and (max-width:1000px) {
+    .gtx-first-container{
+        text-align: center;
+    }
+}

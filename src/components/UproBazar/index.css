@@ -78,6 +78,15 @@
     width: 860px;
 }
 
+
+@media screen and (max-width:1400px) {
+    .uprobazar-first-container{
+        width: 1000px;
+    }
+}
+
+
+
 @media screen and (max-width:1300px) {
 
     .upro-bazar-model-image{
@@ -91,7 +100,7 @@
     
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1130px){
 
     .upro-bazar-model-image{
         width: 350px;
@@ -115,7 +124,10 @@
         width: 400px;
     }
     .uprobazar-first-container{
-        width: 450px;
+        flex-direction: column;
+        background-image: none;
+        align-items: center;
+        text-align: center;
     }
 }
 

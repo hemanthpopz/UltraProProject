@@ -65,9 +65,10 @@
 }
 .contact-btn {
   background-image: url('../Images/ReverseVector.svg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  width: 250px;
+  width: 180px;
   height: 50px;
   background-color: transparent;
   margin-right: 10px;
@@ -89,9 +90,10 @@
 
 .learn-btn {
   background-image: url('../Images/EmptyVector.svg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  width: 250px;
+  width: 180px;
   height: 50px;
   background-color: transparent;
   border-width: 0px;

@@ -41,7 +41,7 @@ function Home() {
               </div>
             </div>
             <div className="image-container">
-              <img className="model-image" src={ModelImage} />
+              <img alt="model-img" className="model-image" src={ModelImage} />
             </div>
           </div>
 
@@ -51,23 +51,23 @@ function Home() {
                 <h1>36+</h1>
                 <p>Countries</p>
               </div>
-              <img className="line" src={Line}/>
+              <img alt="line" className="line" src={Line}/>
               <div className="box2">
                 <h1>20000+</h1>
                 <p>Transactions / Sec</p>
               </div>
-              <img className="line" src={Line}/>
+              <img alt="line" className="line" src={Line}/>
               <div className="box3">
                 <h1>1M+</h1>
                 <p>Trade per Day</p>
               </div>
-              <img className="line" src={Line}/>
+              <img alt="line" className="line" src={Line}/>
             </div>
           </div>
 
           <div className="container2">
             <div className="container2-image-container">
-              <img className="second-image" src={secondImage} />
+              <img alt="second-img" className="second-image" src={secondImage} />
             </div>
             <div className="container2-text-container">
               <h1 className="container2-heading">
@@ -83,14 +83,14 @@ function Home() {
               </p>
             </div>
 
-            <img src={CrossImage} className="cross-image"/>
+            <img alt="cross-img" src={CrossImage} className="cross-image"/>
           </div>
 
           <div className="cubes-container">
-            <img className="triangle" src={Triangle}/>
+            <img alt="triangle" className="triangle" src={Triangle}/>
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img alt="matrix" src={matrix} />
               </div>
               <div className="matrix-text-container">
                 <h1>Vision</h1>
@@ -104,7 +104,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img alt="matrix" src={matrix} />
               </div>
               <div className="matrix-text-container">
                 <h1>Mission</h1>
@@ -118,7 +118,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img alt="matrix" src={matrix} />
               </div>
               <div className="matrix-text-container">
                 <h1>Values</h1>
@@ -132,7 +132,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img alt="matrix" src={matrix} />
               </div>
               <div className="matrix-text-container">
                 <h1>Security</h1>
@@ -145,7 +145,7 @@ function Home() {
             </div>
 
 
-            <img className="half-circle" src={HalfCircle}/>
+            <img alt="half-circle" className="half-circle" src={HalfCircle}/>
           </div>
 
           <h1 className="sol-heading">Solutions</h1>
@@ -164,10 +164,12 @@ function Home() {
                   Discover innovative solutions for seamless, secure, and
                   rewarding decentralized financial experiences.
                 </p>
+                <Link className="Link" to='/defi'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
+                </Link>
               </li>
               <li className="each-solution">
                 <div className="upper-text-container">
@@ -182,14 +184,17 @@ function Home() {
                   and tailor it further to fit the specific tone and style of
                   www.eenaP2P.trade.
                 </p>
+                <Link className="Link" to='/P2P'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
+                </Link>
               </li>
 
               <li className="each-solution">
                 <div className="upper-text-container">
+                  
                   <h1>CANOPUS GTX WALLET</h1>
                   <p>3</p>
                 </div>
@@ -200,10 +205,12 @@ function Home() {
                   stores only the private keys to your cryptocurrency. Visit
                   www.canopusgtx.com for a secure crypto storage experience.
                 </p>
+                <Link className="Link" to='/canopusGtxWallet'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
+                </Link>
               </li>
 
               <li className="each-solution">
@@ -259,7 +266,7 @@ function Home() {
               </li>
             </ul>
 
-            <img src={Box} className="box"/>
+            <img alt="box" src={Box} className="box"/>
           
           </div>
           <h1 className="ecosystem">Ecosystem</h1>
@@ -275,7 +282,7 @@ function Home() {
               <Link className="Link" to="/probinar">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </Link>
             </li>
@@ -290,7 +297,7 @@ function Home() {
               <Link className="Link" to="/stakeupro">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </Link>
             </li>
@@ -305,7 +312,7 @@ function Home() {
               <Link className="Link" to="/uprobazar">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
-                  <img src={Arrow} />
+                  <img alt="Arrow" src={Arrow} />
                 </div>
               </Link>
             </li>
@@ -322,7 +329,7 @@ function Home() {
                 </p>
               </div>
               <div className="payment-image-container">
-                <img className="payment-image" src={Logo} />
+                <img alt="payment-img" className="payment-image" src={Logo} />
                 <h1 className="logo-heading">UPRO</h1>
               </div>
             </div>

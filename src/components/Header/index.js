@@ -28,7 +28,9 @@ function Header(){
             <li>Home</li>
             </Link>
             <li>UPRO</li>
+            <Link className='Link' to='/blog'>
             <li>Blog</li>
+            </Link>
             <li>Canopus Wallet</li>
             <li>Trade</li>
             <li>Asset</li>
@@ -55,7 +57,9 @@ function Header(){
             <li>Home</li>
             </Link>
             <li>UPRO</li>
+            <Link className='Link' to='/blog'>
             <li>Blog</li>
+            </Link>
             <li>Canopus Wallet</li>
             <li>Trade</li>
             <li>Asset</li>

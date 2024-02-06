@@ -32,11 +32,13 @@
 .probinar-first-container {
     background-image: url('../Images/blurBg1.png');
     margin-top: 30px;
-    padding: 20px;
-    background-size: cover;
+    padding: 60px;
+    background-size: contain;
+    height: 60vh;
     display: flex;
     max-width: 1400px;
     align-items: center;
+    background-position: center;
     justify-content: space-evenly;
     background-repeat: no-repeat;
 }
