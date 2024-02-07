@@ -10,6 +10,7 @@ import GTXWallet from "./components/GTXWallet";
 import P2P from "./components/P2P";
 import DEFI from "./components/DEFI";
 import "./App.css";
+import Sitemap from "./components/Sitemap";
 
 function App() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ function App() {
         <Route path='/canopusGtxWallet' element={<GTXWallet/>}/>
         <Route path="/P2P" element={<P2P/>}/>
         <Route path='/defi' element={<DEFI/>}/>
+        <Route path='/sitemap' element={<Sitemap/>}/>
       </Routes>
     </div>
   );

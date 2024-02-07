@@ -16,7 +16,7 @@ function P2P(){
       <Header />
 
       <div className="gtx-content-container ">
-        <div className="probinar-first-container gtx-first-container about-first-container">
+        <div className="probinar-first-container gtx-first-container about-first-container p2p-first-container">
           <div className="probinar-first-text-container">
             <h1 className="gtx-heading">
               P2P Platform

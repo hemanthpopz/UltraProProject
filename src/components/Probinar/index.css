@@ -12,6 +12,7 @@
     flex-direction: column;
     gap: 100px;
     align-items: center;
+    
 }
 
 .probinar-container-heading {
@@ -32,7 +33,7 @@
 .probinar-first-container {
     background-image: url('../Images/blurBg1.png');
     margin-top: 30px;
-    padding: 60px;
+    padding: 70px;
     background-size: contain;
     height: 60vh;
     display: flex;
@@ -263,7 +264,7 @@ line-height: 150%; /* 24px */
         background-image: none;
         flex-direction: column;
         justify-content: center;
-        gap: 40px;
+        margin-top: 150px;
         text-align: center;
        }
     .probinar-third-container{
@@ -323,9 +324,20 @@ line-height: 150%; /* 24px */
     .probinar3-image{
         width: 250px;
     }
+
+    
     .probinar3-heading{
         font-size: 24px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .probinar-first-container{
+        width: 200px;
+    }
+    
 }

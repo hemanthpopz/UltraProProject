@@ -94,7 +94,7 @@
     }
 
     .uprobazar-first-container{
-        width: 1000px;
+        width: auto;
     }
 
     
@@ -106,7 +106,7 @@
         width: 350px;
     }
     .uprobazar-first-container{
-        width: 800px;
+        
     }
     .single-uprobazar-ul-item{
         width: 400px;
@@ -116,6 +116,12 @@
     }
 }
 
+
+@media screen and (max-width:950px) {
+    .uprobazar-first-container{
+        width: auto;
+    }
+}
 
 @media screen and (max-width:920px) {
 
@@ -128,19 +134,29 @@
         background-image: none;
         align-items: center;
         text-align: center;
+        margin-top: 150px;
     }
+}
+
+@media screen and (max-width:900px) {
+
+    .uprobazar-first-container{
+        margin-top: 150px;
+    }
+    
 }
 
 
 @media screen and (max-width:500px) {
 
     .uprobazar-first-container{
-        width: 100%;
+        width: 200px;
+        text-align: center;
     }
 }
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:420px){
 
     .uprobazar-li1{
         width: 200px;
@@ -149,9 +165,7 @@
         width: 200px;
     }
     .uprobazar-li1 h1{
-
         font-size: 20px;
-        
     }
     .upro-bazar-model-image{
         width: 280px;
@@ -171,5 +185,4 @@
         width: 200px;
     }
    
-
 }

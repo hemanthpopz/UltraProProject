@@ -3,7 +3,6 @@ import {
   FaTwitter,
   FaTelegramPlane,
   FaDiscord,
-  FaRedditAlien,
   FaGithub,
   FaInstagram,
   FaLinkedin,
@@ -17,7 +16,7 @@ function Footer(){
     return <footer>
       <div className="first-footer-container">
         <div className="logo-container">
-          <img className="footer-logo" src={Logo} />
+          <img alt='Logo' className="footer-logo" src={Logo} />
           <h1 className="logo-heading footer-logo-heading">UPRO</h1>
         </div>
         <p className="footer-one-p">
@@ -48,7 +47,9 @@ function Footer(){
           <li>Announcement</li>
           <li>News</li>
           <li>Notice</li>
+          <Link className='Link' to='/sitemap'>
           <li>Sitemap</li>
+          </Link>
         </ul>
 
         <ul className="second-footer-container">

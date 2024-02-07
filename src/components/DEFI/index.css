@@ -117,9 +117,11 @@
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
 
-
+    .defi-first-container{
+        width: 1000px;
+    }
     .defi-heading,.defi-span-heading{
         font-size: 50px;
     }
@@ -150,7 +152,21 @@
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
+
+    .defi-heading,.defi-span-heading{
+        font-size: 40px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1100px) {
+
+    .defi-first-container{
+        width: auto;
+    }
 
     .defi-heading,.defi-span-heading{
         font-size: 40px;
@@ -194,7 +210,7 @@
 @media screen and (max-width:500px) {
     
     .defi-primary,.defi-secondary{
-        width: 100%;
+        width: 300px;
     }
 
     .defi-primary h1{
@@ -210,4 +226,12 @@
         font-size: 10px;
     }
     
+}
+
+
+@media screen and  (max-width:400px) {
+ 
+    .defi-primary,.defi-secondary{
+        width: 200px;
+    }   
 }
