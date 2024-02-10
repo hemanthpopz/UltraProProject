@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import ValuesImage from '../Images/ValuesImage.png'
 import Header from "../Header";
 import ModelImage from "../Images/ModelImage.png";
 import "./index.css";
@@ -10,7 +10,8 @@ import CrossImage from '../Images/CrossImage.png'
 import Arrow from "../Images/Arrow.svg";
 import Triangle from '../Images/Triangle.png'
 import Footer from "../Footer";
-
+import MissionImage from '../Images/MissionImage.png'
+import SecurityImage from '../Images/SecurityImage.png'
 import Box from '../Images/Box.png'
 
 import HalfCircle from '../Images/HalfCircle.png'
@@ -104,7 +105,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img alt="matrix" src={matrix} />
+                <img alt="matrix" src={MissionImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Mission</h1>
@@ -118,7 +119,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img alt="matrix" src={matrix} />
+                <img alt="matrix" src={ValuesImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Values</h1>
@@ -132,7 +133,7 @@ function Home() {
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img alt="matrix" src={matrix} />
+                <img alt="matrix" src={SecurityImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Security</h1>
@@ -164,12 +165,12 @@ function Home() {
                   Discover innovative solutions for seamless, secure, and
                   rewarding decentralized financial experiences.
                 </p>
-                <Link className="Link" to='/defi'>
+                <a className="Link" target="_blank" href='/defi'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-                </Link>
+                </a>
               </li>
               <li className="each-solution">
                 <div className="upper-text-container">
@@ -184,12 +185,12 @@ function Home() {
                   and tailor it further to fit the specific tone and style of
                   www.eenaP2P.trade.
                 </p>
-                <Link className="Link" to='/P2P'>
+                <a className="Link" target="_blank" href='/P2P'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-                </Link>
+                </a>
               </li>
 
               <li className="each-solution">
@@ -205,12 +206,12 @@ function Home() {
                   stores only the private keys to your cryptocurrency. Visit
                   www.canopusgtx.com for a secure crypto storage experience.
                 </p>
-                <Link className="Link" to='/canopusGtxWallet'>
+                <a className="Link" target="_blank" href='/canopusGtxWallet'>
                 <div className="explore-container">
                   <p className="explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-                </Link>
+                </a>
               </li>
 
               <li className="each-solution">
@@ -225,9 +226,11 @@ function Home() {
                   assets (cryptocurrency, tokens, etc.) from one blockchain to
                   another.
                 </p>
+                <a className='Link' target='_blank' href='/commingsoon'>
                 <div className="explore-container">
                   <p className="explore">COMING SOON</p>
                 </div>
+                </a>
               </li>
 
               <li className="each-solution">
@@ -241,9 +244,12 @@ function Home() {
                   cutting-edge Decentralized Exchange (DEX). Stay tuned for a
                   revolutionary leap into decentralized trading.
                 </p>
+                <a className='Link' target='_blank' href='/commingsoon'>
+
                 <div className="explore-container">
                   <p className="explore">COMING SOON</p>
                 </div>
+                </a>
               </li>
 
               <li className="each-solution">
@@ -260,9 +266,12 @@ function Home() {
                   a vibrant NFT community. Your journey into the NFT realm
                   starts here.
                 </p>
+                <a className='Link' target='_blank' href='/commingsoon'>
+
                 <div className="explore-container">
                   <p className="explore">COMING SOON</p>
                 </div>
+                </a>
               </li>
             </ul>
 
@@ -279,12 +288,12 @@ function Home() {
                 cutting-edge courses that transform individuals into experts in
                 blockchain, cryptocurrencies, and decentralized applications.
               </p>
-              <Link className="Link" to="/probinar">
+              <a className="Link" target="_blank" href="/probinar">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-              </Link>
+              </a>
             </li>
 
             <li>
@@ -294,12 +303,12 @@ function Home() {
                 foundation. Whether you're a staking novice or a seasoned pro,
                 we have custom plans just for you.
               </p>
-              <Link className="Link" to="/stakeupro">
+              <a className="Link" target="_blank" href="/stakeupro">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-              </Link>
+              </a>
             </li>
 
             <li>
@@ -309,12 +318,12 @@ function Home() {
                 platform; it's your passport to a world of shopping delights.
                 Experience the ease of shopping with UPRO today!
               </p>
-              <Link className="Link" to="/uprobazar">
+              <a className="Link" target="_blank" href="/uprobazar">
                 <div className="eco-explore-container">
                   <p id="eco-explore">EXPLORE MORE</p>
                   <img alt="Arrow" src={Arrow} />
                 </div>
-              </Link>
+              </a>
             </li>
           </ul>
 

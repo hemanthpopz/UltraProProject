@@ -1,0 +1,15 @@
+.main-notfound-container{
+    background-color: #11111b;
+}
+
+.notfound-container{
+    padding: 40px;
+}
+
+
+.notfound-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}

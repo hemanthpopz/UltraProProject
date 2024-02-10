@@ -1,5 +1,6 @@
 .main-probinar-container {
     background-color: #11111b;
+    overflow: hidden;
 }
 
 .probinar-container {

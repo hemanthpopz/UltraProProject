@@ -4,6 +4,7 @@
 
 .main-stakepro-container {
     background-color: #11111b;
+    overflow: hidden;
     
 }
 
@@ -59,6 +60,13 @@
     margin: 10px;
     background-color: var(--1-Fill, rgba(255, 255, 255, 0.05));
     border-radius: 10px;
+}
+
+.cude-image{
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+
 }
 
 .stakepro-secondary2-one{

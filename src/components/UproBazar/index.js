@@ -1,7 +1,9 @@
 import Header from "../Header";
 import UproBazarImage from "../Images/UproBazar.png";
 import Footer from "../Footer";
-import BrandNames from "../Images/BrandNames.png";
+import Voucher1 from '../Images/Voucher1.png'
+import Voucher2 from '../Images/Voucher2.png'
+import Voucher3 from '../Images/Voucher3.png'
 
 import "./index.css";
 
@@ -70,8 +72,22 @@ function UproBazar() {
           </div>
 
           <div className="uprobazar-brand-container">
-            <div className="uprobazar-brand">
-              <img className="brand-names" src={BrandNames} />
+            <div className="barnd-text-container">
+
+              <h1 className="brand-heading">Now Avail Vouchers for Brands Including:</h1>
+              <p className="brand-text-container-des">Stake UPRO with Ultrapro Blockchain - Where trust, security, and a efficiency converge for a prosperous financial journey
+             
+
+             <div className="vouchers-container">
+
+
+              <img alt='Voucher1' className="voucher" src={Voucher1}/>
+              <img alt='Voucher2' className="voucher" src={Voucher2}/>
+              <img alt='Voucher3' className="voucher" src={Voucher3}/>
+
+             </div>
+             
+              </p>
             </div>
           </div>
         </div>

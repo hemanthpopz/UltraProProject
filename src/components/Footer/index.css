@@ -12,6 +12,12 @@ backdrop-filter: blur(4.8px);
 
 }
 
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .address{
     color: var(--White, #FFF);
 font-family: Archivo;

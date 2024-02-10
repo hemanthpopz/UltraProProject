@@ -1,0 +1,15 @@
+.main-commingsoon-container{
+    background-color: #11111b;
+    overflow: hidden;
+}
+
+.commingsoon-container{
+    padding: 40px;
+}
+
+.commingsoon-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}

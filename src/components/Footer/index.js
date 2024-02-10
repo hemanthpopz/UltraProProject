@@ -15,7 +15,7 @@ function Footer(){
   
     return <footer>
       <div className="first-footer-container">
-        <div className="logo-container">
+        <div className="footer-logo-container">
           <img alt='Logo' className="footer-logo" src={Logo} />
           <h1 className="logo-heading footer-logo-heading">UPRO</h1>
         </div>
@@ -30,12 +30,12 @@ function Footer(){
       <div className="footer">
         <ul className="second-footer-container">
           <li id="first-li">UPRO</li>
-          <Link className="Link" to='/'>
+          <a className="Link" href='/' target="_blank">
           <li>Home</li>
-          </Link>
-          <Link className="Link" to='/about'>
+          </a>
+          <a target="_blank" className="Link" href='/about'>
           <li>About Us</li>
-          </Link>
+          </a>
           <li>Press</li>
           <li>Career</li>
           <li>Blog</li>
@@ -44,12 +44,14 @@ function Footer(){
         <ul className="second-footer-container">
           <li id="first-li">Media</li>
           <li>Terms</li>
+          <a target="_blank" className='Link' href='/announcements'>
           <li>Announcement</li>
+          </a>
           <li>News</li>
           <li>Notice</li>
-          <Link className='Link' to='/sitemap'>
+          <a target="_blank" className='Link' href='/sitemap'>
           <li>Sitemap</li>
-          </Link>
+          </a>
         </ul>
 
         <ul className="second-footer-container">

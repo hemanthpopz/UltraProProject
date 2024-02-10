@@ -11,6 +11,10 @@ import P2P from "./components/P2P";
 import DEFI from "./components/DEFI";
 import "./App.css";
 import Sitemap from "./components/Sitemap";
+import Announcements from './components/Announcements'
+import NotFound from "./components/NotFound";
+
+import Commingsoon from "./components/Comingsoon";
 
 function App() {
   const { pathname } = useLocation();
@@ -24,7 +28,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route exact path="/" element={<Home/>} />
         <Route path="/probinar" element={<Probinar />} />
         <Route path="/stakeupro" element={<StakePro />} />
         <Route path="/uprobazar" element={<UproBazar />} />
@@ -34,6 +38,9 @@ function App() {
         <Route path="/P2P" element={<P2P/>}/>
         <Route path='/defi' element={<DEFI/>}/>
         <Route path='/sitemap' element={<Sitemap/>}/>
+        <Route path='/announcements' element={<Announcements/>}/>
+        <Route path='/commingsoon' element={<Commingsoon/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>
   );

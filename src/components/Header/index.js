@@ -2,7 +2,7 @@ import {useState} from 'react'
 import './index.css'
 import {Link} from 'react-router-dom'
 import {IoMdMenu} from 'react-icons/io'
-import Logo from '../Images/LogoImage.svg'
+import Logo from '../Images/NewLogo.png'
 
 function Header(){
 
@@ -20,7 +20,6 @@ function Header(){
         <nav>
           <div className="logo-container">
             <img src={Logo} />
-            <h1 className="logo-heading">UPRO</h1>
           </div>
 
           <ul className="nav-ul lg-nav">

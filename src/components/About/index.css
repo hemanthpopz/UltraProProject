@@ -14,6 +14,13 @@
 }
 
 
+.about-fiest-container{
+    background-size: contain;
+    height: 60vh;
+    background-position: center;
+}
+
+
 .about-first-container-des {
     color: var(--White, #afacac);
     font-feature-settings: 'clig' off, 'liga' off;

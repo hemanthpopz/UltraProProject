@@ -1,10 +1,11 @@
 import Footer from "../Footer";
 import Header from "../Header";
-import StakeProImage from "../Images/StakeProImage.png";
+import StakeProImage from "../Images/StakeUproNewImage.png";
 import ColorfulLogo from "../Images/ColorfulLogo.png";
 import Cone from '../Images/Cone.png'
 import "./index.css";
 import Triangle from '../Images/Triangle.png'
+import CubeImage from '../Images/CudeImage.png'
 
 function StakePro() {
   return (
@@ -22,6 +23,7 @@ function StakePro() {
               </a>
             </div>
             <div className="probinar-image-container">
+            <img src={CubeImage} className="cude-image"/>
               <img alt="model-img" className="model-image" src={StakeProImage} />
             </div>
           </div>

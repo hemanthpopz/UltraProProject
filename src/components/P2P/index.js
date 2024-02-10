@@ -4,11 +4,11 @@ import Header from "../Header";
 
 import Footer from "../Footer";
 
-import secondImage from "../Images/secondImage.png";
+import WhiteBird from "../Images/WhiteBird.png";
 
 import CrossImage from "../Images/CrossImage.png";
 
-import MoneyImage from "../Images/MoneyPhoto.png";
+import MainP2P from "../Images/MainP2P.png";
 
 function P2P(){
     return <div className="gtx-wallet-main-container">
@@ -28,7 +28,7 @@ function P2P(){
             <img
               alt="model-img"
               className="model-image"
-              src={MoneyImage}
+              src={MainP2P}
               />
           </div>
         </div>
@@ -47,7 +47,7 @@ function P2P(){
             <img
               alt="second-img"
               className="second-image"
-              src={secondImage}
+              src={WhiteBird}
             />
           </div>
           <div className="container2-text-container">

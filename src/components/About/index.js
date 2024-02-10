@@ -3,11 +3,17 @@ import Header from "../Header";
 
 import Footer from "../Footer";
 
-import AboutBitCoinImage from "../Images/AboutBitCoinImage.png";
+import AboutCheckImage from "../Images/AboutCheckImage.png";
 
 import matrix from '../Images/matrix.svg'
 
 import "./index.css";
+
+
+import ValuesImage from '../Images/ValuesImage.png'
+
+import MissionImage from '../Images/MissionImage.png'
+import SecurityImage from '../Images/SecurityImage.png'
 
 function About(){
 
@@ -41,9 +47,11 @@ function About(){
               </div>
             </div>
 
+
+
             <div className="about-second-container">
               <div className="about-second-image-container">
-                <img src={AboutBitCoinImage} className="bitcoin-image" />
+                <img src={AboutCheckImage} className="bitcoin-image" />
               </div>
 
               <div className="about-second-text-container">
@@ -79,7 +87,7 @@ function About(){
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img src={MissionImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Mission</h1>
@@ -93,7 +101,7 @@ function About(){
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img src={ValuesImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Values</h1>
@@ -107,7 +115,7 @@ function About(){
 
             <div className="cube1">
               <div className="matrix-image-container">
-                <img src={matrix} />
+                <img src={SecurityImage} />
               </div>
               <div className="matrix-text-container">
                 <h1>Security</h1>

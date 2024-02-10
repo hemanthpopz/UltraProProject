@@ -110,6 +110,18 @@
 }
 
 
+.gtx-learn-btn{
+    background-image: url('../Images/WalletVector.png');
+    background-size: contain;
+    background-position: center;
+    color: #FF5301;
+    font-size: 20px;
+    font-family: 'Archivo';
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+}
+
 @media screen and (max-width:1400px) {
     .gtx-container2{
         width: 1000px;

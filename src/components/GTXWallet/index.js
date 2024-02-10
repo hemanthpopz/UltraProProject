@@ -6,6 +6,10 @@ import Footer from "../Footer";
 
 import CrossImage from "../Images/CrossImage.png";
 
+import GTXImage from '../Images/GTXImage.png'
+
+import GTXImage2 from '../Images/GTXImage2.png'
+
 
 const GtxButtons = [
   {
@@ -50,7 +54,7 @@ function GTXWallet() {
                 alt="model-img"
                 className="model-image"
                 
-                src='https://cloud.blockin.ai/static/api_login.ab5f47fa.png'
+                src={GTXImage}
               />
             </div>
           </div>
@@ -72,7 +76,7 @@ function GTXWallet() {
               <img
                 alt="second-img"
                 className="second-image"
-                src='https://miro.medium.com/v2/resize:fit:591/0*dXOZsfiisD_xsLGA.png'
+                src={GTXImage2}
               />
             </div>
             <div className="container2-text-container">
@@ -103,7 +107,7 @@ function GTXWallet() {
             <ul className="gtx-buttoons-container">
               {GtxButtons.map((EachButton) => (
                 <li>
-                  <button className="learn-btn">{EachButton.name}</button>
+                  <button className="gtx-learn-btn">{EachButton.name}</button>
                   
                 </li>
               ))}

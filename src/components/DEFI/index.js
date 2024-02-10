@@ -4,7 +4,7 @@ import Header from '../Header'
 
 import Footer from '../Footer'
 
-import DEFIFirstImage from '../Images/DEFIImage.png'
+import MainDEFI from '../Images/MainDEFI.png'
 
 function DEFI(){
     return <div className='defi-main-container'>
@@ -27,7 +27,7 @@ function DEFI(){
                 alt="model-img"
                 className="model-image"
                 
-                src={DEFIFirstImage}
+                src={MainDEFI}
               />
             </div>
           </div>

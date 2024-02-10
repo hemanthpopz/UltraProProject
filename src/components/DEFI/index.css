@@ -1,5 +1,6 @@
 .defi-main-container{
     background-color: #11111b;
+    overflow: hidden;
 }
 
 .defi-container{

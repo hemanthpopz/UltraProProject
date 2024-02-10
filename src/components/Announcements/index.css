@@ -1,0 +1,143 @@
+.main-announce-container{
+    background-color: #11111b;
+}
+
+.announce-container{
+    padding: 40px;
+}
+
+.announce-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.announce-image{
+    width: 550px;
+    margin-left: 40px;
+}
+
+.announce-first-container{
+    justify-content: left;
+}
+
+
+.announce-image-container{
+    background-image: url('../Images/AnnouncementsImage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    animation-name: announce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 1px;
+}
+
+@keyframes announce {
+
+    from{
+
+        top: 1px;
+        opacity: 1;
+    }
+    to{
+
+        top: 14px;
+        opacity: 0.7;
+        
+    }
+    
+}
+
+.announce-heading{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: 'Roboto Slab';
+}
+
+
+.announce-text{
+    width: 400px;
+    position: relative;
+    bottom: 1px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+
+}
+
+.announce-text:hover{
+    opacity: 0.8;
+    bottom: 10px;
+
+}
+
+.annoounce-text-ul{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    .announce-image-container{
+        width: 500px ;
+    }
+
+    .announce-heading{
+        font-size: 30px;
+    }
+    .announce-text{
+        width: 300px;
+    }
+
+    .announce-content-container{
+        gap: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .announce-image-container{
+        width: 300px;
+    }
+    .announce-text{
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+
+
+    .main-announce-container{
+        overflow: hidden;
+
+    }
+
+    .announce-image-container{
+        width: 100%;
+    }
+    .announce-text{
+        width: 100%;
+    }
+    
+
+}

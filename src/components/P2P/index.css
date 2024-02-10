@@ -1,3 +1,7 @@
+.gtx-wallet-main-container{
+    overflow: hidden;
+}
+
 .marketplace-p{
     color: rgb(202, 198, 198);
     margin-top: 20px;
