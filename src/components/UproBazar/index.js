@@ -14,6 +14,7 @@ function UproBazar() {
         <Header />
         <div className="uprobazar-content-container">
           <div className="probinar-first-container uprobazar-first-container ">
+          <div className="universel-text-container">
             <div className="probinar-first-text-container">
               <h1 className="probinar-container-heading">
                 Your Shopping Voucher Paradise
@@ -22,9 +23,10 @@ function UproBazar() {
             </div>
             <div className="probinar-image-container">
               <img
-                className=" model-image upro-bazar-model-image"
+                className="model-image upro-bazar-model-image"
                 src={UproBazarImage}
               />
+            </div>
             </div>
           </div>
 

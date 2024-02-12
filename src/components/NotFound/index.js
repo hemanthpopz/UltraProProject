@@ -17,6 +17,7 @@ function NotFound(){
             <div className='notfound-content-container'>
 
             <div className="probinar-first-container gtx-first-container about-first-container">
+            <div className='universel-text-container'>
             <div className="probinar-first-text-container">
               <h1 className="gtx-heading">
                 Oops!
@@ -30,6 +31,7 @@ function NotFound(){
                 
                 src={ErrorImage}
               />
+            </div>
             </div>
           </div>
 

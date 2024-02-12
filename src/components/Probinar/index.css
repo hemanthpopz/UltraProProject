@@ -45,6 +45,10 @@
     background-repeat: no-repeat;
 }
 
+
+
+
+
 .probiar-second-container {
     display: flex;
     flex-direction: column;
@@ -268,6 +272,7 @@ line-height: 150%; /* 24px */
         margin-top: 150px;
         text-align: center;
        }
+       
     .probinar-third-container{
         flex-direction: column;
         justify-content: center;

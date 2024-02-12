@@ -14,6 +14,7 @@ function StakePro() {
         <Header />
         <div className="stake-content-container">
           <div className="probinar-first-container">
+          <div className="universel-text-container">
             <div className="probinar-first-text-container">
               <h1 className="probinar-container-heading">
                 Building Your Financial Future
@@ -25,6 +26,7 @@ function StakePro() {
             <div className="probinar-image-container">
             <img src={CubeImage} className="cude-image"/>
               <img alt="model-img" className="model-image" src={StakeProImage} />
+            </div>
             </div>
           </div>
 

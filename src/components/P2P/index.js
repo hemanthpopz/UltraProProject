@@ -17,6 +17,9 @@ function P2P(){
 
       <div className="gtx-content-container ">
         <div className="probinar-first-container gtx-first-container about-first-container p2p-first-container">
+          <div className='universel-text-container'>
+
+          
           <div className="probinar-first-text-container">
             <h1 className="gtx-heading">
               P2P Platform
@@ -30,6 +33,7 @@ function P2P(){
               className="model-image"
               src={MainP2P}
               />
+          </div>
           </div>
         </div>
 

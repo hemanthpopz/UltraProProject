@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import axios from 'axios';
 import ValuesImage from '../Images/ValuesImage.png'
 import Header from "../Header";
 import ModelImage from "../Images/ModelImage.png";
@@ -17,12 +19,31 @@ import Box from '../Images/Box.png'
 import HalfCircle from '../Images/HalfCircle.png'
 
 function Home() {
+
+  useEffect(() =>{
+
+
+    toGetApi()
+  })
+  
+  const toGetApi = async () => {
+    
+    // const url = 'http://localhost:3000/getData'
+  
+    // const result = await axios.get(url)
+
+    // const main  = await result.data
+
+    // console.log(main)
+  }
+
   return (
     <div className="container">
       <div className=" home-container">
         <Header />
         <div className="content-container">
           <div className="container1">
+          
             <div className="text-container">
               <h1 className="container1-heading">
                 Pinnacle of Crypto Communities
@@ -44,6 +65,7 @@ function Home() {
             <div className="image-container">
               <img alt="model-img" className="model-image" src={ModelImage} />
             </div>
+            
           </div>
 
           <div className="details-container">

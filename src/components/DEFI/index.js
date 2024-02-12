@@ -14,6 +14,9 @@ function DEFI(){
             <div className='defi-content-container'>
 
             <div className="probinar-first-container gtx-first-container about-first-container defi-first-container ">
+              <div className='universel-text-container'>
+
+              
             <div className="probinar-first-text-container">
               <h1 className="gtx-heading defi-heading">
               Defining the <span className="gtx-span-heading defi-span-heading">DEFI</span> Revolution 
@@ -29,6 +32,7 @@ function DEFI(){
                 
                 src={MainDEFI}
               />
+            </div>
             </div>
           </div>
 

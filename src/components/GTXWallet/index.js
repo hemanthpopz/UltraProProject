@@ -43,6 +43,7 @@ function GTXWallet() {
 
         <div className="gtx-content-container">
           <div className="probinar-first-container gtx-first-container about-first-container">
+          <div className='universel-text-container'>
             <div className="probinar-first-text-container">
               <h1 className="gtx-heading">
                 Canopus <span className="gtx-span-heading">GTX</span> Wallet
@@ -56,6 +57,7 @@ function GTXWallet() {
                 
                 src={GTXImage}
               />
+            </div>
             </div>
           </div>
 

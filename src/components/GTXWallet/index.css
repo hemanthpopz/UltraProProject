@@ -120,6 +120,15 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 60px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.gtx-learn-btn:hover{
+
+    opacity: 0.7;
+
 }
 
 @media screen and (max-width:1400px) {
@@ -156,6 +165,11 @@
 @media screen and (max-width:1100px) {
     .gtx-first-container{
         width: 800px;
+    }
+
+    .gtx-learn-btn{
+        width: 150px;
+        height: 40px;
     }
 }
 

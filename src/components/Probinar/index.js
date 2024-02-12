@@ -16,6 +16,9 @@ function Probinar() {
         <div className="probinar-content-container">
         
           <div className="probinar-first-container">
+            <div className="universel-text-container">
+
+            
             <div className="probinar-first-text-container">
               <h1 className="probinar-container-heading">
                 Your Gateway to Blockchain Excellence
@@ -28,6 +31,7 @@ function Probinar() {
                 className="model-image"
                 src="https://www.touchdown.co/wp-content/uploads/2020/09/Untitled-2-2.png"
               />
+            </div>
             </div>
           </div>
 

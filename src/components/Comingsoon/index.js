@@ -20,6 +20,7 @@ function Commingsoon(){
 
 
             <div className="probinar-first-container gtx-first-container about-first-container">
+            <div className='universel-text-container'>
             <div className="probinar-first-text-container">
               <h1 className="gtx-heading">
                 Coming Soon ! 
@@ -33,6 +34,7 @@ function Commingsoon(){
                 
                 src={CommingsoonImage}
               />
+            </div>
             </div>
           </div>
 
