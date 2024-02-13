@@ -16,6 +16,9 @@ import NotFound from "./components/NotFound";
 
 import Commingsoon from "./components/Comingsoon";
 
+
+import EachBlog from './components/EachBlog'
+
 function App() {
   const { pathname } = useLocation();
 
@@ -40,6 +43,7 @@ function App() {
         <Route path='/sitemap' element={<Sitemap/>}/>
         <Route path='/announcements' element={<Announcements/>}/>
         <Route path='/commingsoon' element={<Commingsoon/>}/>
+        <Route path='/blog/:id' element={<EachBlog/>} />
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>

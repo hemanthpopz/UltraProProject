@@ -20,22 +20,7 @@ import HalfCircle from '../Images/HalfCircle.png'
 
 function Home() {
 
-  useEffect(() =>{
-
-
-    toGetApi()
-  })
-  
-  const toGetApi = async () => {
-    
-    // const url = 'http://localhost:3000/getData'
-  
-    // const result = await axios.get(url)
-
-    // const main  = await result.data
-
-    // console.log(main)
-  }
+ 
 
   return (
     <div className="container">
